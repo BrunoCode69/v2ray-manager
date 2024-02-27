@@ -26,4 +26,14 @@ v2ray-manager create_global_test --uuid "74da4900-3d9d-4469-9ede-037d01f73cbf" -
 v2ray-manager delete_global_test --uuid "74da4900-3d9d-4469-9ede-037d01f73cbf"
 ```
 
+# Habilitar auto removedor de usuarios expirados:
+```bash
+v2ray-manager enable_auto_remove
+```
+
+# Listar os usuarios criados:
+```bash
+v2ray-manager list_users
+```
+
 https://t.me/Bruno_VPN
